@@ -15,9 +15,14 @@ const flowInfo = addKeyword(['1', 'catalogo', 'informacion', 'info'])
     .addAnswer([
     'Contamos con SISTEMA DE APARTADO de 1 mes con un monto mínimo de ₡2.000🛍️',
     '\nNos puedes consultar sin ningún compromiso por este medio o nuestro Instagram @sharefashionn',
-    '\nEscribe *Menu* para regresar al menu inicial'
 
-    ]);
+
+    ])
+    .addAnswer([
+        'Puedes unirte a nuestro grupo en WhatsApp y ser la primera en darte cuenta de las nuevas colecciones; ofertas y más🛍️',
+        'Ingresa aquí➡️ https://chat.whatsapp.com/GpgVBZkgKkDC1uDGc39E6L',
+        '\nEscribe *Menu* para regresar al menu inicial'
+        ]);
 
 
 
