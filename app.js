@@ -21,8 +21,9 @@ const flowInfo = addKeyword(['1', 'catalogo', 'informacion', 'info'])
     .addAnswer([
         'Puedes unirte a nuestro grupo en WhatsApp y ser la primera en darte cuenta de las nuevas colecciones; ofertas y más🛍️',
         'Ingresa aquí➡️ https://chat.whatsapp.com/GpgVBZkgKkDC1uDGc39E6L',
-        '\nEscribe *Menu* para regresar al menu inicial'
-    ]);
+    ])
+    .addAnswer(['*¿NECESITAS REALIZAR OTRA CONSULTA?*',
+    '\nEscribe la palabra *Menu* e ingresa alguna de las opciones'])
 
 
 
@@ -34,7 +35,8 @@ const flowShein = addKeyword(['2', 'cotizar'])
         '\n2. Dos Pagos: Primero pagas el pedido completo (los artículos). Cuando llegue a nuestro país (15-22 días), pagas el peso de tu compra más el envío a tu casa.',
     ])
     .addAnswer('Solamente nos envías los enlaces de cada artículo y nosotras te cotizamos ✨', { media: 'https://res.cloudinary.com/dqziikbnw/video/upload/v1715233519/TutorialShein_goqgyc.mp4' })
-    .addAnswer('Escribe *Menu* para regresar al menu inicial')
+    .addAnswer(['*¿NECESITAS REALIZAR OTRA CONSULTA?*',
+        '\nEscribe la palabra *Menu* e ingresa alguna de las opciones'])
 
 const flowShipping = addKeyword(['3', 'envio', 'tarifas']).addAnswer([
     'TARIFAS DE ENVIO📦✨',
