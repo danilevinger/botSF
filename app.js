@@ -26,7 +26,7 @@ const flowInfo = addKeyword(['1', 'catalogo', 'informacion', 'info'])
 
 
 
-const flowShein = addKeyword(['2', 'cotizar', 'shein'])
+const flowShein = addKeyword(['2', 'cotizar'])
     .addAnswer([
         'BAJO PEDIDO🩷 ',
         '\nAquí te explicamos cómo funciona nuestro servicio de manera sencilla:',
@@ -43,9 +43,9 @@ const flowShipping = addKeyword(['3', 'envio', 'tarifas']).addAnswer([
     'GAM: ₡2.700',
     'Resto del país: ₡3.400',
     '\n✨Musoc SJ: ₡1.800',
-    '✨Gafeso Buenos Aires: ₡1.400',
-    '\nEscribe *Menu* para regresar al menu inicial'
-]);
+    '✨Gafeso Buenos Aires: ₡1.400'
+])    
+.addAnswer('Escribe *Menu* para regresar al menu inicial')
 
 const flowAgent = addKeyword(['agente']).addAnswer('Puedes escribir tu consulta y un agente te dará respuesta en horario de 4pm a 6pm. Gracias por tu espera y estamos para servirle!🥰');
 
