@@ -30,7 +30,7 @@ const flowInfo = addKeyword(['1', 'catalogo', 'informacion', 'info'])
 const flowShein = addKeyword(['2', 'cotizar'])
     .addAnswer([
         'BAJO PEDIDO 🩷 CADA 15 DIAS',
-        '*PRÓXIMO: 19 DE MAYO*',
+        '*PRÓXIMO: 02 DE JUNIO*',
         '\nAquí te explicamos cómo funciona nuestro servicio de manera sencilla:',
         '\n1. Costo por Peso: Cobramos ₡3.640 por cada libra de compra. Esto significa que puedes llenar hasta 1 libra con tus artículos favoritos de SHEIN por este precio. (Estos ₡3.640 incluyen los servicios de traerte tu pedido de China a Costa Rica)',
         '\n2. Dos Pagos: Primero pagas el pedido completo (los artículos). Cuando llegue a nuestro país (15-22 días), pagas el peso de tu compra más el envío a tu casa.',
