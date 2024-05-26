@@ -3,7 +3,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const JsonFileAdapter = require('@bot-whatsapp/database/json');
 
-
+//BOTSF
 
 const flowInfo = addKeyword(['1', 'catalogo', 'informacion', 'info'])
     .addAnswer([
