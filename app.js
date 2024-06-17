@@ -1,4 +1,4 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot');
+const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot');
 const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const JsonFileAdapter = require('@bot-whatsapp/database/json');
@@ -60,9 +60,12 @@ const flowMain = addKeyword(['Hola', 'info', 'informacion', 'buenas', 'catalogo'
         '\nO bien, si tu consulta es diferente al menú, escribe la palabra *Agente* para hablar con un agente de servicio'
     ], null, null, [flowInfo, flowShein, flowShipping, flowAgent]);
 
+    const flowAudio = addKeyword(EVENTS.VOICE_NOTE)
+    .addAnswer('No recibimos audios ni llamadas, solamente mensajes de texto. Escribe *Menu* para realizar tu consulta')
+
 const main = async () => {
     const adapterDB = new JsonFileAdapter();
-    const adapterFlow = createFlow([flowMain]);
+    const adapterFlow = createFlow([flowMain, flowAudio]);
     const adapterProvider = createProvider(BaileysProvider);
 
     createBot({

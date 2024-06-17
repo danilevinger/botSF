@@ -1,15 +1,42 @@
 [
   {
-    "ref": "375f5a17-32f1-4da1-a403-62b7adf85f9f",
-    "keyword": "3795654ac8070111e4145ac447160d19",
+    "ref": "d56b1717-9a07-46e5-9d97-ca15316c7dec",
+    "keyword": "eafe8d25f4c8b74af6c130b24ff2fcb0",
+    "answer": "_event_voice_note__ed526a09-dabe-41a1-9078-58d3bb807276",
+    "options": {},
+    "from": "50687254197",
+    "refSerialize": "190a85c885b361bdc7b3bd8043cb1fed"
+  },
+  {
+    "ref": "ans_34363fde-5f88-4b6d-b61e-1dbe81b50647",
+    "keyword": "key_3e9ef4a5-634e-4d5b-9546-8f9ddc9da71d",
+    "answer": "No recibimos audios ni llamadas, solamente mensajes de texto",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5547c611f27c8117f1ea04ffa6a354b3",
+    "from": "50687254197"
+  },
+  {
+    "ref": "7af05ae5-1b32-42f2-98dc-e2fd01a7336b",
+    "keyword": "5547c611f27c8117f1ea04ffa6a354b3",
     "answer": "Hola",
     "options": {},
     "from": "50687254197",
     "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_ac2f8649-24b9-42c4-a356-af64b897368f",
-    "keyword": "key_dbdfa059-982f-4a29-a39e-6c8e47ed5d3e",
+    "ref": "ans_2b510b77-8159-4ff5-8553-3ec24e2f7c69",
+    "keyword": "key_9abfe4cc-99fa-4bce-b3b1-d784bf071523",
     "answer": "Gracias por comunicarte con Share Fashion🩷",
     "options": {
       "media": null,
@@ -23,12 +50,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "2b042811aafd8d72c37ada90b90ffb57",
+    "refSerialize": "37bfb7c111ca39b8f713f4cfd06f9e62",
     "from": "50687254197"
   },
   {
-    "ref": "ans_68b2d7b1-ee7f-4ca3-a518-fdcee0bcecf1",
-    "keyword": "ans_ac2f8649-24b9-42c4-a356-af64b897368f",
+    "ref": "ans_69d0bb1c-8130-4137-99bc-eea8f4522987",
+    "keyword": "ans_2b510b77-8159-4ff5-8553-3ec24e2f7c69",
     "answer": "Por favor digita la opción del menú que deseas conocer:\n1. Información + Catálogo🩷\n2. ⁠Quiero cotizar una compra SHEIN🛒\n3. Tarifas de envío 🚚\n\nO bien, si tu consulta es diferente al menú, escribe la palabra *Agente* para hablar con un agente de servicio",
     "options": {
       "media": null,
@@ -40,7 +67,7 @@
       "ref": null,
       "nested": [
         {
-          "ref": "key_95d39790-b4e2-435f-95d4-5897dde180c8",
+          "ref": "key_98712498-a2b2-4ba8-badd-fb6473a4f840",
           "keyword": [
             "1",
             "catalogo",
@@ -53,8 +80,8 @@
           "refSerialize": "7ea29a6f64a171ec7c1eec6a8f53180d"
         },
         {
-          "ref": "ans_d913d5a1-786a-4421-9460-662d6f9b7933",
-          "keyword": "key_95d39790-b4e2-435f-95d4-5897dde180c8",
+          "ref": "ans_6e6894c6-a08f-4d94-aff7-e5446050455a",
+          "keyword": "key_98712498-a2b2-4ba8-badd-fb6473a4f840",
           "answer": "Somos una tienda virtual ubicada en Pérez Zeledón y hacemos envíos a TODO el país🇨🇷\n\nSi quieres ver el catálogo y/o comprar ingresa a nuestro sitio web www.sharefashioncr.com ✨\n\nSolo aceptamos compras a través de nuestra página web. Para apartados o dudas puntuales, contáctanos directamente.",
           "options": {
             "media": null,
@@ -68,11 +95,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "542ebd2230f0092dc13d91bf226aca0b"
+          "refSerialize": "6124eefc9e3f532aa6da6d346db74d4d"
         },
         {
-          "ref": "ans_de92a49b-3af8-4d20-90ee-8930f6250faa",
-          "keyword": "ans_d913d5a1-786a-4421-9460-662d6f9b7933",
+          "ref": "ans_e006679b-5fa9-4fee-93f0-66066a4b0321",
+          "keyword": "ans_6e6894c6-a08f-4d94-aff7-e5446050455a",
           "answer": "Te adjuntamos un mini tutorial sobre cómo comprar en nuestra página web.",
           "options": {
             "media": "https://res.cloudinary.com/dqziikbnw/video/upload/v1718605029/copy_63F581C9-BD4D-4CAA-ABD3-276686F27F13_-_Compressed_with_FlexClip_nhoyg7.mp4",
@@ -86,11 +113,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "a54cbaa1c5f491be2840f09d456976f0"
+          "refSerialize": "408488363de4769c9bab3cd64599f2a9"
         },
         {
-          "ref": "ans_a67e154a-9623-47fd-a4e2-5a6b2a34001a",
-          "keyword": "ans_de92a49b-3af8-4d20-90ee-8930f6250faa",
+          "ref": "ans_92056d3e-8ea7-480d-9b6b-664fb6f56330",
+          "keyword": "ans_e006679b-5fa9-4fee-93f0-66066a4b0321",
           "answer": "Contamos con SISTEMA DE APARTADO de 1 mes con un monto mínimo de ₡2.000🛍️\n\nSíguenos en nuestro Instagram @sharefashionn",
           "options": {
             "media": null,
@@ -104,11 +131,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "c855ed9830af5f38756578e1984aefaf"
+          "refSerialize": "8e7e9a97c8065ef250281673e6c587d1"
         },
         {
-          "ref": "ans_b60ec4b1-70a5-4c52-a3e9-3dc10e7fb826",
-          "keyword": "ans_a67e154a-9623-47fd-a4e2-5a6b2a34001a",
+          "ref": "ans_cead3a2c-f172-411f-9818-bd0d3d47ef73",
+          "keyword": "ans_92056d3e-8ea7-480d-9b6b-664fb6f56330",
           "answer": "Puedes unirte a nuestro grupo en WhatsApp y ser la primera en darte cuenta de las nuevas colecciones; ofertas y más🛍️\nIngresa aquí➡️ https://chat.whatsapp.com/GpgVBZkgKkDC1uDGc39E6L",
           "options": {
             "media": null,
@@ -122,11 +149,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "8e01c5e258e05d48d1089c56050325bc"
+          "refSerialize": "9f7b3e73513ea20236d3d0cf63580140"
         },
         {
-          "ref": "ans_956e4b66-8359-4b6c-a934-2fd4814532ec",
-          "keyword": "ans_b60ec4b1-70a5-4c52-a3e9-3dc10e7fb826",
+          "ref": "ans_b9bea68d-0de0-4b54-adf4-dfff675c27cb",
+          "keyword": "ans_cead3a2c-f172-411f-9818-bd0d3d47ef73",
           "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
           "options": {
             "media": null,
@@ -140,10 +167,10 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "eafe8d25f4c8b74af6c130b24ff2fcb0"
+          "refSerialize": "012b933d18897e3943927c76c39d963f"
         },
         {
-          "ref": "key_a214d8d7-021d-44ad-96cf-80ab56194230",
+          "ref": "key_fd47244b-c903-422c-a968-d46827d3eecf",
           "keyword": [
             "2",
             "cotizar"
@@ -155,8 +182,8 @@
           "refSerialize": "cf59aa5c6eeb25fc63735d07332b36b2"
         },
         {
-          "ref": "ans_2e44f038-571c-4051-8228-9ab4a2ce49d3",
-          "keyword": "key_a214d8d7-021d-44ad-96cf-80ab56194230",
+          "ref": "ans_8aff84d6-e14d-44dd-ad66-7d38f5bc2f45",
+          "keyword": "key_fd47244b-c903-422c-a968-d46827d3eecf",
           "answer": "BAJO PEDIDO 🩷 CADA 15 DIAS\n*PRÓXIMO: 23 DE JUNIO*\n\nAquí te explicamos cómo funciona nuestro servicio de manera sencilla:\n\n1. Costo por Peso: Cobramos ₡3.640 por cada libra de compra. Esto significa que puedes llenar hasta 1 libra con tus artículos favoritos de SHEIN por este precio. (Estos ₡3.640 incluyen los servicios de traerte tu pedido de China a Costa Rica)\n\n2. Dos Pagos: Primero pagas el pedido completo (los artículos). Cuando llegue a nuestro país (15-22 días), pagas el peso de tu compra más el envío a tu casa.",
           "options": {
             "media": null,
@@ -170,11 +197,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "6b8b7c37cd8e345535eba6f6a21a0690"
+          "refSerialize": "651a35a8ccd261850eeafa5e6064f9c8"
         },
         {
-          "ref": "ans_f4ffe8da-b050-4c4f-8e76-ced1d738157e",
-          "keyword": "ans_2e44f038-571c-4051-8228-9ab4a2ce49d3",
+          "ref": "ans_85a1fdf4-d2b8-4134-90d4-4280ad3010b3",
+          "keyword": "ans_8aff84d6-e14d-44dd-ad66-7d38f5bc2f45",
           "answer": "Solamente nos envías los enlaces de cada artículo y nosotras te cotizamos ✨",
           "options": {
             "media": "https://res.cloudinary.com/dqziikbnw/video/upload/v1715233519/TutorialShein_goqgyc.mp4",
@@ -188,11 +215,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "1340cfb26a60ff66bed1e61b87dcfffe"
+          "refSerialize": "e738bee287de82b3d56fcdf49aad6f21"
         },
         {
-          "ref": "ans_03d12afd-18b5-485f-942e-8b07b51fb8ea",
-          "keyword": "ans_f4ffe8da-b050-4c4f-8e76-ced1d738157e",
+          "ref": "ans_ccdf01d2-7985-4f65-8443-0f763e7a94b8",
+          "keyword": "ans_85a1fdf4-d2b8-4134-90d4-4280ad3010b3",
           "answer": "🚨*INFORMACIÓN IMPORTANTE*🚨",
           "options": {
             "media": "https://res.cloudinary.com/dqziikbnw/image/upload/v1718603276/6408E736-777E-4469-9472-7A82C140A9F5_lipivi.png",
@@ -206,11 +233,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "ae8c26144acb02509d12ae864a640bbb"
+          "refSerialize": "2aefa878f4ff5d63b0ea50e0484b0cf5"
         },
         {
-          "ref": "ans_dedf7e36-b9db-4ee3-849b-c85b260dabfa",
-          "keyword": "ans_03d12afd-18b5-485f-942e-8b07b51fb8ea",
+          "ref": "ans_f5a661b6-c669-44b3-8abb-0c0847e970da",
+          "keyword": "ans_ccdf01d2-7985-4f65-8443-0f763e7a94b8",
           "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
           "options": {
             "media": null,
@@ -224,10 +251,10 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "e5081011099d42aacfc3d5e83d183c79"
+          "refSerialize": "0a8bb786b42a0c88135dd8cb9319dddd"
         },
         {
-          "ref": "key_99e0710b-06ae-43c8-bb81-dc40a78a6de2",
+          "ref": "key_27ec3051-8873-4aed-8cd7-bca7b2eeb0d9",
           "keyword": [
             "3",
             "envio",
@@ -241,8 +268,8 @@
           "refSerialize": "8453540dd9abbb61caee38ca0c206aaf"
         },
         {
-          "ref": "ans_5a3bc2a2-f327-4b81-a372-372316d14a1f",
-          "keyword": "key_99e0710b-06ae-43c8-bb81-dc40a78a6de2",
+          "ref": "ans_a8b3f1c6-967f-4ed9-9b2f-f806cf9f093c",
+          "keyword": "key_27ec3051-8873-4aed-8cd7-bca7b2eeb0d9",
           "answer": "Adjuntamos nuestras tarifas de envío",
           "options": {
             "media": "https://res.cloudinary.com/dqziikbnw/image/upload/v1715744969/tarifas_ujikk5.png",
@@ -256,11 +283,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "76a25fa7a433715d65fc5726553c0807"
+          "refSerialize": "e18669701b506c0d50011fc6a25886bf"
         },
         {
-          "ref": "ans_2b067675-600d-4aa8-a7b3-435b2ed6c803",
-          "keyword": "ans_5a3bc2a2-f327-4b81-a372-372316d14a1f",
+          "ref": "ans_7fc25f84-b524-489c-aac3-d1661ca3ea9a",
+          "keyword": "ans_a8b3f1c6-967f-4ed9-9b2f-f806cf9f093c",
           "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
           "options": {
             "media": null,
@@ -274,10 +301,10 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "e638f13893cc05ae0028102dc83c87b3"
+          "refSerialize": "36ca7d72fe6210f573d2c112eeb04533"
         },
         {
-          "ref": "key_48e4fcc9-3a3c-4d65-ad78-97c4ded32078",
+          "ref": "key_63d245cc-dcba-4a20-9220-24b2a7ffdad9",
           "keyword": [
             "agente"
           ],
@@ -288,8 +315,8 @@
           "refSerialize": "b0068f7c4797c847b263bbafbe5582cc"
         },
         {
-          "ref": "ans_d5ee338c-e810-4b46-987e-2d431622e227",
-          "keyword": "key_48e4fcc9-3a3c-4d65-ad78-97c4ded32078",
+          "ref": "ans_257f20a3-1ce1-4bdd-8831-302cff594e56",
+          "keyword": "key_63d245cc-dcba-4a20-9220-24b2a7ffdad9",
           "answer": "Puedes escribir tu consulta y un agente te dará respuesta en horario de 4pm a 6pm. Gracias por tu espera y estamos para servirle!🥰",
           "options": {
             "media": null,
@@ -303,26 +330,26 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "76fde1cf039b9d294f161ac375974362"
+          "refSerialize": "697ee0996e607947fc0673dab47dea62"
         }
       ],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "b1c2edbe012dafd4251548ef02230468",
+    "refSerialize": "c7ab311190357b45d5c65b2acb53669c",
     "from": "50687254197"
   },
   {
-    "ref": "f0644bfd-062b-422d-a198-787b7e1e434a",
-    "keyword": "b1c2edbe012dafd4251548ef02230468",
+    "ref": "45fbe0fe-f6c2-46c4-b8ce-cf4bda7d8c44",
+    "keyword": "c7ab311190357b45d5c65b2acb53669c",
     "answer": "1",
     "options": {},
     "from": "50687254197",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_d913d5a1-786a-4421-9460-662d6f9b7933",
-    "keyword": "key_95d39790-b4e2-435f-95d4-5897dde180c8",
+    "ref": "ans_6e6894c6-a08f-4d94-aff7-e5446050455a",
+    "keyword": "key_98712498-a2b2-4ba8-badd-fb6473a4f840",
     "answer": "Somos una tienda virtual ubicada en Pérez Zeledón y hacemos envíos a TODO el país🇨🇷\n\nSi quieres ver el catálogo y/o comprar ingresa a nuestro sitio web www.sharefashioncr.com ✨\n\nSolo aceptamos compras a través de nuestra página web. Para apartados o dudas puntuales, contáctanos directamente.",
     "options": {
       "media": null,
@@ -336,12 +363,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "542ebd2230f0092dc13d91bf226aca0b",
+    "refSerialize": "6124eefc9e3f532aa6da6d346db74d4d",
     "from": "50687254197"
   },
   {
-    "ref": "ans_de92a49b-3af8-4d20-90ee-8930f6250faa",
-    "keyword": "ans_d913d5a1-786a-4421-9460-662d6f9b7933",
+    "ref": "ans_e006679b-5fa9-4fee-93f0-66066a4b0321",
+    "keyword": "ans_6e6894c6-a08f-4d94-aff7-e5446050455a",
     "answer": "Te adjuntamos un mini tutorial sobre cómo comprar en nuestra página web.",
     "options": {
       "media": "https://res.cloudinary.com/dqziikbnw/video/upload/v1718605029/copy_63F581C9-BD4D-4CAA-ABD3-276686F27F13_-_Compressed_with_FlexClip_nhoyg7.mp4",
@@ -355,12 +382,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "a54cbaa1c5f491be2840f09d456976f0",
+    "refSerialize": "408488363de4769c9bab3cd64599f2a9",
     "from": "50687254197"
   },
   {
-    "ref": "ans_a67e154a-9623-47fd-a4e2-5a6b2a34001a",
-    "keyword": "ans_de92a49b-3af8-4d20-90ee-8930f6250faa",
+    "ref": "ans_92056d3e-8ea7-480d-9b6b-664fb6f56330",
+    "keyword": "ans_e006679b-5fa9-4fee-93f0-66066a4b0321",
     "answer": "Contamos con SISTEMA DE APARTADO de 1 mes con un monto mínimo de ₡2.000🛍️\n\nSíguenos en nuestro Instagram @sharefashionn",
     "options": {
       "media": null,
@@ -374,12 +401,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "c855ed9830af5f38756578e1984aefaf",
+    "refSerialize": "8e7e9a97c8065ef250281673e6c587d1",
     "from": "50687254197"
   },
   {
-    "ref": "ans_b60ec4b1-70a5-4c52-a3e9-3dc10e7fb826",
-    "keyword": "ans_a67e154a-9623-47fd-a4e2-5a6b2a34001a",
+    "ref": "ans_cead3a2c-f172-411f-9818-bd0d3d47ef73",
+    "keyword": "ans_92056d3e-8ea7-480d-9b6b-664fb6f56330",
     "answer": "Puedes unirte a nuestro grupo en WhatsApp y ser la primera en darte cuenta de las nuevas colecciones; ofertas y más🛍️\nIngresa aquí➡️ https://chat.whatsapp.com/GpgVBZkgKkDC1uDGc39E6L",
     "options": {
       "media": null,
@@ -393,12 +420,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "8e01c5e258e05d48d1089c56050325bc",
+    "refSerialize": "9f7b3e73513ea20236d3d0cf63580140",
     "from": "50687254197"
   },
   {
-    "ref": "ans_956e4b66-8359-4b6c-a934-2fd4814532ec",
-    "keyword": "ans_b60ec4b1-70a5-4c52-a3e9-3dc10e7fb826",
+    "ref": "ans_b9bea68d-0de0-4b54-adf4-dfff675c27cb",
+    "keyword": "ans_cead3a2c-f172-411f-9818-bd0d3d47ef73",
     "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
     "options": {
       "media": null,
@@ -412,7 +439,320 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "eafe8d25f4c8b74af6c130b24ff2fcb0",
+    "refSerialize": "012b933d18897e3943927c76c39d963f",
+    "from": "50687254197"
+  },
+  {
+    "ref": "1f639247-708a-4007-8013-60aa280b4ce1",
+    "keyword": "012b933d18897e3943927c76c39d963f",
+    "answer": "Menu",
+    "options": {},
+    "from": "50687254197",
+    "refSerialize": "1943ef5752ef89f46d7b613aaf765c9b"
+  },
+  {
+    "ref": "ans_2b510b77-8159-4ff5-8553-3ec24e2f7c69",
+    "keyword": "key_9abfe4cc-99fa-4bce-b3b1-d784bf071523",
+    "answer": "Gracias por comunicarte con Share Fashion🩷",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "37bfb7c111ca39b8f713f4cfd06f9e62",
+    "from": "50687254197"
+  },
+  {
+    "ref": "ans_69d0bb1c-8130-4137-99bc-eea8f4522987",
+    "keyword": "ans_2b510b77-8159-4ff5-8553-3ec24e2f7c69",
+    "answer": "Por favor digita la opción del menú que deseas conocer:\n1. Información + Catálogo🩷\n2. ⁠Quiero cotizar una compra SHEIN🛒\n3. Tarifas de envío 🚚\n\nO bien, si tu consulta es diferente al menú, escribe la palabra *Agente* para hablar con un agente de servicio",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_98712498-a2b2-4ba8-badd-fb6473a4f840",
+          "keyword": [
+            "1",
+            "catalogo",
+            "informacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "7ea29a6f64a171ec7c1eec6a8f53180d"
+        },
+        {
+          "ref": "ans_6e6894c6-a08f-4d94-aff7-e5446050455a",
+          "keyword": "key_98712498-a2b2-4ba8-badd-fb6473a4f840",
+          "answer": "Somos una tienda virtual ubicada en Pérez Zeledón y hacemos envíos a TODO el país🇨🇷\n\nSi quieres ver el catálogo y/o comprar ingresa a nuestro sitio web www.sharefashioncr.com ✨\n\nSolo aceptamos compras a través de nuestra página web. Para apartados o dudas puntuales, contáctanos directamente.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6124eefc9e3f532aa6da6d346db74d4d"
+        },
+        {
+          "ref": "ans_e006679b-5fa9-4fee-93f0-66066a4b0321",
+          "keyword": "ans_6e6894c6-a08f-4d94-aff7-e5446050455a",
+          "answer": "Te adjuntamos un mini tutorial sobre cómo comprar en nuestra página web.",
+          "options": {
+            "media": "https://res.cloudinary.com/dqziikbnw/video/upload/v1718605029/copy_63F581C9-BD4D-4CAA-ABD3-276686F27F13_-_Compressed_with_FlexClip_nhoyg7.mp4",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "408488363de4769c9bab3cd64599f2a9"
+        },
+        {
+          "ref": "ans_92056d3e-8ea7-480d-9b6b-664fb6f56330",
+          "keyword": "ans_e006679b-5fa9-4fee-93f0-66066a4b0321",
+          "answer": "Contamos con SISTEMA DE APARTADO de 1 mes con un monto mínimo de ₡2.000🛍️\n\nSíguenos en nuestro Instagram @sharefashionn",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "8e7e9a97c8065ef250281673e6c587d1"
+        },
+        {
+          "ref": "ans_cead3a2c-f172-411f-9818-bd0d3d47ef73",
+          "keyword": "ans_92056d3e-8ea7-480d-9b6b-664fb6f56330",
+          "answer": "Puedes unirte a nuestro grupo en WhatsApp y ser la primera en darte cuenta de las nuevas colecciones; ofertas y más🛍️\nIngresa aquí➡️ https://chat.whatsapp.com/GpgVBZkgKkDC1uDGc39E6L",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9f7b3e73513ea20236d3d0cf63580140"
+        },
+        {
+          "ref": "ans_b9bea68d-0de0-4b54-adf4-dfff675c27cb",
+          "keyword": "ans_cead3a2c-f172-411f-9818-bd0d3d47ef73",
+          "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "012b933d18897e3943927c76c39d963f"
+        },
+        {
+          "ref": "key_fd47244b-c903-422c-a968-d46827d3eecf",
+          "keyword": [
+            "2",
+            "cotizar"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "cf59aa5c6eeb25fc63735d07332b36b2"
+        },
+        {
+          "ref": "ans_8aff84d6-e14d-44dd-ad66-7d38f5bc2f45",
+          "keyword": "key_fd47244b-c903-422c-a968-d46827d3eecf",
+          "answer": "BAJO PEDIDO 🩷 CADA 15 DIAS\n*PRÓXIMO: 23 DE JUNIO*\n\nAquí te explicamos cómo funciona nuestro servicio de manera sencilla:\n\n1. Costo por Peso: Cobramos ₡3.640 por cada libra de compra. Esto significa que puedes llenar hasta 1 libra con tus artículos favoritos de SHEIN por este precio. (Estos ₡3.640 incluyen los servicios de traerte tu pedido de China a Costa Rica)\n\n2. Dos Pagos: Primero pagas el pedido completo (los artículos). Cuando llegue a nuestro país (15-22 días), pagas el peso de tu compra más el envío a tu casa.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "651a35a8ccd261850eeafa5e6064f9c8"
+        },
+        {
+          "ref": "ans_85a1fdf4-d2b8-4134-90d4-4280ad3010b3",
+          "keyword": "ans_8aff84d6-e14d-44dd-ad66-7d38f5bc2f45",
+          "answer": "Solamente nos envías los enlaces de cada artículo y nosotras te cotizamos ✨",
+          "options": {
+            "media": "https://res.cloudinary.com/dqziikbnw/video/upload/v1715233519/TutorialShein_goqgyc.mp4",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e738bee287de82b3d56fcdf49aad6f21"
+        },
+        {
+          "ref": "ans_ccdf01d2-7985-4f65-8443-0f763e7a94b8",
+          "keyword": "ans_85a1fdf4-d2b8-4134-90d4-4280ad3010b3",
+          "answer": "🚨*INFORMACIÓN IMPORTANTE*🚨",
+          "options": {
+            "media": "https://res.cloudinary.com/dqziikbnw/image/upload/v1718603276/6408E736-777E-4469-9472-7A82C140A9F5_lipivi.png",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2aefa878f4ff5d63b0ea50e0484b0cf5"
+        },
+        {
+          "ref": "ans_f5a661b6-c669-44b3-8abb-0c0847e970da",
+          "keyword": "ans_ccdf01d2-7985-4f65-8443-0f763e7a94b8",
+          "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0a8bb786b42a0c88135dd8cb9319dddd"
+        },
+        {
+          "ref": "key_27ec3051-8873-4aed-8cd7-bca7b2eeb0d9",
+          "keyword": [
+            "3",
+            "envio",
+            "envío",
+            "tarifas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "8453540dd9abbb61caee38ca0c206aaf"
+        },
+        {
+          "ref": "ans_a8b3f1c6-967f-4ed9-9b2f-f806cf9f093c",
+          "keyword": "key_27ec3051-8873-4aed-8cd7-bca7b2eeb0d9",
+          "answer": "Adjuntamos nuestras tarifas de envío",
+          "options": {
+            "media": "https://res.cloudinary.com/dqziikbnw/image/upload/v1715744969/tarifas_ujikk5.png",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e18669701b506c0d50011fc6a25886bf"
+        },
+        {
+          "ref": "ans_7fc25f84-b524-489c-aac3-d1661ca3ea9a",
+          "keyword": "ans_a8b3f1c6-967f-4ed9-9b2f-f806cf9f093c",
+          "answer": "*¿NECESITAS REALIZAR OTRA CONSULTA?*\n\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "36ca7d72fe6210f573d2c112eeb04533"
+        },
+        {
+          "ref": "key_63d245cc-dcba-4a20-9220-24b2a7ffdad9",
+          "keyword": [
+            "agente"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b0068f7c4797c847b263bbafbe5582cc"
+        },
+        {
+          "ref": "ans_257f20a3-1ce1-4bdd-8831-302cff594e56",
+          "keyword": "key_63d245cc-dcba-4a20-9220-24b2a7ffdad9",
+          "answer": "Puedes escribir tu consulta y un agente te dará respuesta en horario de 4pm a 6pm. Gracias por tu espera y estamos para servirle!🥰",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "697ee0996e607947fc0673dab47dea62"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "c7ab311190357b45d5c65b2acb53669c",
     "from": "50687254197"
   }
 ]
