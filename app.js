@@ -8,8 +8,8 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json');
 const flowInfo = addKeyword(['1', 'catalogo', 'informacion'])
     .addAnswer([
         'Somos una tienda virtual ubicada en Pérez Zeledón y hacemos envíos a TODO el país🇨🇷',
-        '\nSi quieres ver el catálogo y/o comprar ingresa a nuestro sitio web www.sharefashioncr.com ✨',
-        '\nSolo aceptamos compras a través de nuestra página web. Para apartados o dudas puntuales, contáctanos directamente.'
+        '\nSi quieres ver el catálogo y/o comprar ingresa a nuestro sitio web www.sharefashioncr.com el cual estamos constantemente actualizando con nuevos ingresos✨',
+        '\nPara apartados o dudas puntuales, contáctanos directamente.'
     ])
     .addAnswer([
         'Te adjuntamos un mini tutorial sobre cómo comprar en nuestra página web.'
@@ -28,15 +28,16 @@ const flowInfo = addKeyword(['1', 'catalogo', 'informacion'])
     ]);
 
 
-const flowShein = addKeyword(['2', 'cotizar'])
+    const flowShein = addKeyword(['2', 'cotizar'])
     .addAnswer([
-        'BAJO PEDIDO 🩷 CADA 15 DIAS',
-        '*PRÓXIMO: 23 DE JUNIO*',
-        '\nAquí te explicamos cómo funciona nuestro servicio de manera sencilla:',
-        '\n1. Costo por Peso: Cobramos ₡3.640 por cada libra de compra. Esto significa que puedes llenar hasta 1 libra con tus artículos favoritos de SHEIN por este precio. (Estos ₡3.640 incluyen los servicios de traerte tu pedido de China a Costa Rica)',
-        '\n2. Dos Pagos: Primero pagas el pedido completo (los artículos). Cuando llegue a nuestro país (15-22 días), pagas el peso de tu compra más el envío a tu casa.',
+        'BAJO PEDIDO 🩷 CADA 15 DÍAS',
+        '*PRÓXIMO: 07 DE JULIO*',
+        '\n*¿Cómo trabajamos?*',
+        'Te damos el precio final de cada artículo puesto en Costa Rica. Este precio incluye todos los impuestos para traer tu pedido de SHEIN desde China hasta Costa Rica.',
+        '\n*¿Cómo son los pagos?*',
+        'Solamente pagas el monto que te indicamos por tus artículos. Cuando llegue tu pedido al país (en 15-22 días), no tendrás que preocuparte por pagar nada más, solo el envío a tu casa.',
     ])
-    .addAnswer('Solamente nos envías los enlaces de cada artículo y nosotras te cotizamos ✨', { media: 'https://res.cloudinary.com/dqziikbnw/video/upload/v1715233519/TutorialShein_goqgyc.mp4' })
+    .addAnswer('Envíanos los enlaces de cada artículo y nosotras te cotizamos ✨', { media: 'https://res.cloudinary.com/dqziikbnw/video/upload/v1715233519/TutorialShein_goqgyc.mp4' })
     .addAnswer('🚨*INFORMACIÓN IMPORTANTE*🚨', { media: 'https://res.cloudinary.com/dqziikbnw/image/upload/v1718603276/6408E736-777E-4469-9472-7A82C140A9F5_lipivi.png' })
     .addAnswer(['*¿NECESITAS REALIZAR OTRA CONSULTA?*',
         '\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones'])
@@ -46,16 +47,16 @@ const flowShipping = addKeyword(['3', 'envio', 'envío', 'tarifas'])
     .addAnswer(['*¿NECESITAS REALIZAR OTRA CONSULTA?*',
         '\nEscribe solo la palabra *Menu* y después ingresa alguna de las opciones'])
 
-const flowAgent = addKeyword(['agente']).addAnswer('Puedes escribir tu consulta y un agente te dará respuesta en horario de 4pm a 6pm. Gracias por tu espera y estamos para servirle!🥰');
+const flowAgent = addKeyword(['agente']).addAnswer('Puedes escribir tu consulta y un agente te dará una respuesta en las siguientes 24h en horario laboral. Gracias por tu espera y estamos para servirle!🥰');
 
 
 
-const flowMain = addKeyword(['Hola', 'info', 'informacion', 'buenas', 'catalogo', 'fotos', 'publicacion', 'menu', 'menú'])
+const flowMain = addKeyword(['Hola', 'info', 'informacion', 'buenas', 'catalogo', 'fotos', 'publicacion', 'menu', 'menú', 'buenos'])
     .addAnswer('Gracias por comunicarte con Share Fashion🩷')
     .addAnswer([
         'Por favor digita la opción del menú que deseas conocer:',
-        '1. Información + Catálogo🩷',
-        '2. ⁠Quiero cotizar una compra SHEIN🛒',
+        '1. Información de la tienda + Catálogo🩷',
+        '2. ⁠Quiero informacion y/o cotizar una compra de SHEIN🛒',
         '3. Tarifas de envío 🚚',
         '\nO bien, si tu consulta es diferente al menú, escribe la palabra *Agente* para hablar con un agente de servicio'
     ], null, null, [flowInfo, flowShein, flowShipping, flowAgent]);
