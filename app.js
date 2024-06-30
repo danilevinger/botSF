@@ -12,9 +12,6 @@ const flowInfo = addKeyword(['1', 'catalogo', 'informacion'])
         '\nPara apartados o dudas puntuales, contáctanos directamente.'
     ])
     .addAnswer([
-        'Te adjuntamos un mini tutorial sobre cómo comprar en nuestra página web.'
-    ], { media: 'https://res.cloudinary.com/dqziikbnw/video/upload/v1718605029/copy_63F581C9-BD4D-4CAA-ABD3-276686F27F13_-_Compressed_with_FlexClip_nhoyg7.mp4' })
-    .addAnswer([
         'Contamos con SISTEMA DE APARTADO de 1 mes con un monto mínimo de ₡2.000🛍️',
         '\nSíguenos en nuestro Instagram @sharefashionn'
     ])
